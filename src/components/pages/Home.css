@@ -1,0 +1,35 @@
+.home-main-header {
+  background: url("../../assets/main-background.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+}
+.header-main-text {
+  font-family: "Abril Fatface", cursive;
+  min-height: 100vh;
+}
+.header-main-text h1 {
+  font-size: 100px;
+  line-height: 1.1;
+  letter-spacing: 0px;
+}
+.header-main-text h2 {
+  color: #f2414b;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 6px;
+}
+.header-horizontal-line {
+  color: red;
+  background: red;
+  width: 100px;
+  height: 5px;
+}
+@media screen and (max-width: 475px) {
+  .header-main-text h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+}

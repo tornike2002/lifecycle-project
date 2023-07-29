@@ -1,0 +1,7 @@
+.burg-navlink-container a {
+  color: var(--textColors);
+  text-decoration: none;
+}
+.burg-navlink-container a.active {
+ color: red;
+}

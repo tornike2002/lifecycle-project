@@ -1,0 +1,23 @@
+
+.nav-link.active{
+    color: red;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .nav-link{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) {
+    .nav-burgermenu-container{
+        display: none;
+    }
+    .burger-menu-content{
+        display: none;
+    }
+}
