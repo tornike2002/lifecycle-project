@@ -14,6 +14,9 @@ const Home = () => {
             <hr className="header-horizontal-line" />
             <h1>Boivin</h1>
           </div>
+          <button type="button" className="btn btn-outline-light p-3">
+            VIEW MY GALLERY
+          </button>
         </div>
       </header>
     </section>

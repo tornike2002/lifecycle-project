@@ -1,23 +1,31 @@
-
-.nav-link.active{
-    color: red;
+.nav-link.active {
+  color: red;
 }
 
-
-
-
-
+.nav-stick {
+  background: transparent;
+  transition: all 500ms ease;
+}
+.nav-stick.active {
+  background-color: rgba(5, 12, 41, 0.85);
+}
+.nav-link {
+  transition: all 500ms ease;
+}
+.nav-link:hover {
+  color: red;
+}
 
 @media screen and (max-width: 768px) {
-    .nav-link{
-        display: none;
-    }
+  .nav-link {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) {
-    .nav-burgermenu-container{
-        display: none;
-    }
-    .burger-menu-content{
-        display: none;
-    }
+  .nav-burgermenu-container {
+    display: none;
+  }
+  .burger-menu-content {
+    display: none;
+  }
 }

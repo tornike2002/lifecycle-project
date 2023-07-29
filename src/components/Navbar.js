@@ -5,13 +5,29 @@ import "./Navbar.css";
 import Burgermenu from "./UI/Burgermenu";
 const Navbar = () => {
   const [burgermenu, setBurgermenu] = useState(false);
-
+  const [navbar, setNavbar] = useState(false);
   const burgermenuHandler = () => {
     setBurgermenu(!burgermenu);
   };
+
+  const changeBackgroundHandler = () => {
+    if (window.scrollY >= 80) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+  window.addEventListener("resize", changeBackgroundHandler);
+
   return (
-    <div className="container mt-3">
-      <nav className="d-flex justify-content-between align-items-center flex-wrap">
+    <div
+      className={
+        navbar
+          ? "pt-3 pb-3 sticky-top nav-stick active"
+          : "pt-3 pb-3 sticky-top nav-stick"
+      }
+    >
+      <nav className=" container d-flex justify-content-between align-items-center flex-wrap">
         <div className="nav-logo d-flex align-items-center gap-3">
           <img src={navLogo} alt="logo" />
           <h1>LifeArt</h1>
@@ -21,7 +37,7 @@ const Navbar = () => {
             Home
           </NavLink>
           <NavLink to="/" className="nav-link">
-            About ME
+            ABOUT ME
           </NavLink>
           <NavLink to="/" className="nav-link">
             GALLERY
