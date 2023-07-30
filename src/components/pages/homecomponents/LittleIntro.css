@@ -1,0 +1,52 @@
+.intro-hr {
+  width: 20%;
+  border: 1.5px solid #f2414b;
+}
+.little-helper h1 {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Abril Fatface", display;
+  color: #ffffff;
+  font-size: 50px;
+  line-height: 1.2;
+  letter-spacing: 0px;
+}
+.little-intro-image img {
+  box-shadow: 29px 29px 31px -15px rgba(255, 0, 0, 1);
+  -webkit-box-shadow: 29px 29px 31px -15px rgba(255, 0, 0, 1);
+  -moz-box-shadow: 29px 29px 31px -15px rgba(255, 0, 0, 1);
+  width: 100%;
+  max-width: 100%;
+}
+
+.little-helper-paragraph {
+  width: 40%;
+  max-width: 100%;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  color: #c8c8c8;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: 0px;
+}
+
+@media screen and (max-width: 912px) {
+  .little-helper-paragraph {
+    width: 60%;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .little-intro-text {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .little-helper {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}

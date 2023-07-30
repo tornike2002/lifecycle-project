@@ -1,8 +1,11 @@
 import React from "react";
 import Navbar from "../Navbar";
 import "./Home.css";
+import HomeTime from "./homecomponents/HomeTime";
+import LittleIntro from "./homecomponents/LittleIntro";
 
 const Home = () => {
+  const targetDate = "2023-12-31T23:59:59"; // Replace this with your desired target date
   return (
     <section>
       <header className="home-main-header w-100 mw-100">
@@ -19,6 +22,13 @@ const Home = () => {
           </button>
         </div>
       </header>
+
+      <section>
+        <HomeTime targetDate={targetDate} />
+      </section>
+      <section>
+        <LittleIntro />
+      </section>
     </section>
   );
 };

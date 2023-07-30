@@ -1,0 +1,48 @@
+.homeTime {
+  font-family: "Poppins", sans-serif;
+}
+.timer-container {
+  width: 580px;
+  max-width: 100%;
+}
+.timer-container h1 {
+  font-size: 90px;
+}
+.timer-container h2 {
+  font-size: 16px;
+  color: #ccc;
+}
+.exhibitionContainer h1 {
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 912px) {
+  .timer-container h1{
+    font-size: 60px;
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 875px) {
+  .homeTime {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 575px) {
+  .timer-container h1 {
+    font-size: 30px;
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .timer-container {
+    gap: 5px !important;
+  }
+  .timer-container h2 {
+    font-size: 10px;
+  }
+  .exhibitionContainer h1 {
+    font-size: 45px;
+  }
+}

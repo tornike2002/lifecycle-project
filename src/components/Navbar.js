@@ -17,7 +17,7 @@ const Navbar = () => {
       setNavbar(false);
     }
   };
-  window.addEventListener("resize", changeBackgroundHandler);
+  window.addEventListener("scroll", changeBackgroundHandler);
 
   return (
     <div
@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
         <div className="nav-links-container d-flex gap-4">
           <NavLink to="/home" className="nav-link">
-            Home
+            HOME
           </NavLink>
           <NavLink to="/" className="nav-link">
             ABOUT ME
