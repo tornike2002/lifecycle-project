@@ -3,6 +3,7 @@ import Navbar from "../Navbar";
 import "./Home.css";
 import HomeTime from "./homecomponents/HomeTime";
 import LittleIntro from "./homecomponents/LittleIntro";
+import Upcoming from "./homecomponents/Upcoming";
 
 const Home = () => {
   const targetDate = "2023-12-31T23:59:59"; // Replace this with your desired target date
@@ -28,6 +29,9 @@ const Home = () => {
       </section>
       <section>
         <LittleIntro />
+      </section>
+      <section>
+        <Upcoming />
       </section>
     </section>
   );

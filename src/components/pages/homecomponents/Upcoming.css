@@ -1,0 +1,121 @@
+.upcoming-tickets-side h3 {
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  color: #f2414b;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 6px;
+}
+.upcoming-tickets-side {
+  background-color: var(--background);
+}
+.upcoming-tickets-side h1 {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Abril Fatface", display;
+  color: #ffffff;
+  font-size: 100px;
+  line-height: 1.1;
+  letter-spacing: 0px;
+}
+.upcoming-tickets-side p {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  color: #c8c8c8;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: 0px;
+}
+.schedule-container h1 {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Abril Fatface", display;
+  color: #ffffff;
+  font-size: 100px;
+  line-height: 1.1;
+  letter-spacing: 0px;
+}
+.schedule-container p {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  color: #939292;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0px;
+}
+.schedule-text h2 {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Abril Fatface", display;
+  color: #ffffff;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0px;
+}
+.schedule-text p {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  color: #939292;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0px;
+}
+
+.tickets-hr {
+  border: 2px solid red;
+}
+
+.upcoming-tickets-side {
+  width: 40%;
+  max-width: 100%;
+  right: 15%;
+}
+
+@media screen and (max-width: 1400px) {
+  .upcoming-tickets-side {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 975px) {
+  .upcoming-tickets-side {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 775px) {
+  .upcoming-tickets-side {
+    width: 100%;
+    right: 0;
+  }
+}
+@media screen and (max-width: 575px) {
+  .upcoming-tickets-side h1 {
+    font-size: 45px;
+  }
+  .upcoming-tickets-side p {
+    font-size: 12px;
+  }
+  .schedule-flex-column {
+    padding-bottom: 25px;
+  }
+  .upcoming-tickets-side {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .schedule-flex-column {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .upcoming-tickets-side {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}

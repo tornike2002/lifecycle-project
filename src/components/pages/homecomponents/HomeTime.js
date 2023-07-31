@@ -10,7 +10,7 @@ const HomeTime = ({ targetDate }) => {
     }, 1000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [getTimeRemaining]);
 
   function getTimeRemaining() {
     const now = new Date().getTime();
