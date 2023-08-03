@@ -102,7 +102,7 @@ const Contact = () => {
                       />
                     </div>
 
-                    <button type="button" class="btn btn-outline-light">
+                    <button type="submit" className="btn btn-outline-light">
                       Send Message
                     </button>
                   </div>

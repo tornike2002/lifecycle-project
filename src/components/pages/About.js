@@ -1,12 +1,6 @@
 import React from "react";
 import "./About.css";
 import Navbar from "../Navbar";
-import about1 from "../../assets/home-1.jpg";
-import about2 from "../../assets/home-2.jpg";
-import about3 from "../../assets/home-3.jpg";
-import about4 from "../../assets/home-4.jpg";
-import about5 from "../../assets/home-5.jpg";
-import about6 from "../../assets/home-6.jpg";
 import EmailValidation from "../UI/EmailValidation";
 import Footer from "../Footer";
 
