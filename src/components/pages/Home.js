@@ -4,6 +4,9 @@ import "./Home.css";
 import HomeTime from "./homecomponents/HomeTime";
 import LittleIntro from "./homecomponents/LittleIntro";
 import Upcoming from "./homecomponents/Upcoming";
+import Portfolio from "./homecomponents/Portfolio";
+import News from "./homecomponents/News";
+import Footer from "../Footer";
 
 const Home = () => {
   const targetDate = "2023-12-31T23:59:59"; // Replace this with your desired target date
@@ -23,16 +26,12 @@ const Home = () => {
           </button>
         </div>
       </header>
-
-      <section>
-        <HomeTime targetDate={targetDate} />
-      </section>
-      <section>
-        <LittleIntro />
-      </section>
-      <section>
-        <Upcoming />
-      </section>
+      <HomeTime targetDate={targetDate} />
+      <LittleIntro />
+      <Upcoming />
+      <Portfolio />
+      <News />
+      <Footer />
     </section>
   );
 };

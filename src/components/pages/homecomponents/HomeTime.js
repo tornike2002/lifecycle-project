@@ -3,14 +3,19 @@ import "./HomeTime.css";
 
 const HomeTime = ({ targetDate }) => {
   const [timeRemaining, setTimeRemaining] = useState(getTimeRemaining());
-
+  let interval;
   useEffect(() => {
     const interval = setInterval(() => {
       setTimeRemaining(getTimeRemaining());
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [getTimeRemaining]);
+  }, [getTimeRemaining]); // Include getTimeRemaining in the dependency array
+
+  useEffect(() => {
+    // Clear the interval when the component unmounts or when the targetDate prop changes
+    return () => clearInterval(interval);
+  }, [targetDate]);
 
   function getTimeRemaining() {
     const now = new Date().getTime();

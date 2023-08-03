@@ -3,8 +3,8 @@ import "./Upcoming.css";
 import upcomingPhoto from "../../../assets/upcoming-bg.png";
 const Upcoming = () => {
   return (
-    <div className="upcoming-main-container d-flex pt-5 mt-5">
-      <div className="upcoming-main-photo position-relative">
+    <div className="upcoming-main-container d-flex pt-5 mt-5 position-relative">
+      <div className="upcoming-main-photo ">
         <img className="w-100 mw-100" src={upcomingPhoto} alt="upcomingPhoto" />
       </div>
       <div className="upcoming-tickets-side d-flex flex-column position-absolute p-4">
@@ -60,6 +60,8 @@ const Upcoming = () => {
                   <button type="button" className="btn btn-outline-danger">
                     BUY TICKETS NOW
                   </button>
+                </div>
+                <div>
                 </div>
               </div>
             </div>

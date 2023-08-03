@@ -1,0 +1,36 @@
+.ticket-side-number {
+  background-color: black;
+  font-size: 75px;
+  padding: 3px;
+}
+.ticket-side-number {
+  top: 0;
+}
+
+
+@media screen and (max-width: 778px) {
+  .exhibition-text-content p {
+    width: 100% !important;
+  }
+  .exhibition-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tickets-one {
+    display: flex;
+    flex-direction: column;
+  }
+  .tickets-one img {
+    width: 50% !important;
+  }
+}
+@media screen and (max-width: 378px) {
+  .first-tickets {
+    align-items: center;
+  }
+  .ticket-side-number {
+    font-size: 30px;
+  }
+}
