@@ -1,7 +1,6 @@
 import React from "react";
 import "./Contact.css";
 import Navbar from "../Navbar";
-import contactimg from "../../assets/contact.png";
 import { Formik, Field, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import Footer from "../Footer";
@@ -30,11 +29,8 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
-      <div className="contact-main-container d-flex">
-        <div className="contact-bg position-relative">
-          <img src={contactimg} alt="contactimg" className="w-100 mw-100" />
-        </div>
-        <div className="contact-form w-25 mw-100 p-3 position-absolute">
+      <div className="contact-main-container d-flex align-items-center justify-content-center contact-bg">
+        <div className="contact-form w-25 mw-100 p-3">
           <div className="d-flex flex-column gap-1">
             <h1 className="contact-me">CONTACT ME</h1>
             <h1 className="reus-h">Get in Touch</h1>
