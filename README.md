@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-Live: https://elaborate-hotteok-992f4e.netlify.app
+Live: https://nimble-malabi-f4810e.netlify.app
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
